@@ -1,0 +1,175 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+
+body,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #d9a8ce;
+}
+
+.menu {
+    background: #d9a8ce;
+}
+
+.menu ul {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menu ul li {
+
+}
+
+.menu ul li a {
+    color: #000000;
+    padding: 3px;
+    border-bottom: 2px solid #782a64;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.menu ul li a:hover {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+    border-color: #FFFFFF;
+}
+
+.main {
+
+}
+
+.main .row {
+    display: flex;
+}
+
+.main .row .left {
+    flex: 0 1 30%;
+    background: #e8cedc;
+    padding: 0 20px;
+}
+
+.main .row .right {
+    flex: 0 1 70%;
+    background: #ececec;
+    padding: 0 30px;
+}
+
+.photo {
+    display: block;
+    margin: 20px auto 40px;
+
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 3px solid #782a64;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main .row .left section,
+.main .row .right section {
+    margin: 0 0 30px;
+}
+
+.main .row .left h2,
+.main .row .right h2 {
+    margin: 0 0 20px 10px;
+}
+
+.main .row .left p {
+    line-height: 2rem;
+}
+
+.main .row .left ul,
+.main .row .right ul {
+    padding: 0 0 0 30px;
+    list-style: circle;
+}
+
+.main .row .left ul li,
+.main .row .right ul li {
+    margin: 0 0 5px;
+}
+
+.main .row .right pre {
+    background: #CCCCCC;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main .row .right.title {
+    text-align: center;
+}
+
+.main .row .left .contacts img {
+    height: 15px;
+    margin: 0 5px 0;
+}
+
+.main .row .left .contacts li span {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    height: 70px;
+    background: #d9a8ce;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .github {
+    display: flex;
+    align-items: center;
+}
+
+footer .github img {
+    margin: 0 5px 0 0;
+    height: 15px;
+}
+
+footer .date {
+
+}
+
+footer .school {
+
+}
+
+footer .school img {
+    height: 15px;
+}
