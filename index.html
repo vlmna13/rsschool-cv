@@ -64,10 +64,10 @@
                     <section>
                         <h2>About me:</h2>
                         <p>
-                            I like to read classical literature,
+                            I like reading classical literature,
                             camping and other hobbies without extreme.
                             I'm multitask and attentive person.
-                            Now I want to be Front-end Developer.
+                            Now I want to be a Front-end Developer.
                         </p>
                     </section>
                 </div>
@@ -114,9 +114,14 @@
                         <h2>Code:</h2>
                         <pre>
                             <code>
-function multiply (a, b) {
-    a * b
-}
+                                function highAndLow(numbers){
+                                    let num = numbers.split(' ');
+                                    let sortNum = num.sort(function(a , b){
+                                      return b - a;
+                                    }
+                                   );
+                                    return sortNum[0] + ' ' + sortNum[sortNum.length - 1];
+                                  };
                             </code>
                         </pre>
                     </section>
