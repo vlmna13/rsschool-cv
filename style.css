@@ -51,10 +51,6 @@ h1 {
 
 }
 
-.menu ul li {
-
-}
-
 .menu ul li a {
     color: #000000;
     padding: 3px;
@@ -66,10 +62,6 @@ h1 {
     color: #FFFFFF;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
     border-color: #FFFFFF;
-}
-
-.main {
-
 }
 
 .main .row {
@@ -160,14 +152,6 @@ footer .github {
 footer .github img {
     margin: 0 5px 0 0;
     height: 15px;
-}
-
-footer .date {
-
-}
-
-footer .school {
-
 }
 
 footer .school img {
