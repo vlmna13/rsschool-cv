@@ -11,18 +11,25 @@ I'm multitask and attentive person.
 Now I want to be Front-end Developer.
 
 ## Skills:
-basic knowledge HTML, CSS, Markdown
+basic knowledge HTML, CSS, JS, Markdown
 
 ## Code Example:
 
 ```
-function multiply(a, b){
-  a * b
-}
+
+function highAndLow(numbers){
+    let num = numbers.split(' ');
+    let sortNum = num.sort(function(a , b){
+      return b - a;
+    }
+    );
+    return sortNum[0] + ' ' + sortNum[sortNum.length - 1];
+};
+                            
 ```
 
 ## Education and courses:
-JS/Front-end stage 0 RS School 2021 - ...
+JS/Front-end stage 0 RS School 2021 - 2022
 
 ## Language:
 English - Level A2
